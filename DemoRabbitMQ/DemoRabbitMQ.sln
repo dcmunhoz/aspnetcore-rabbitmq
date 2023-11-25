@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB4E4074-AE78-472F-9519-DAEC1BD859F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRabbitMq.Producer", "..\src\DemoRabbitMq.Producer\DemoRabbitMq.Producer.csproj", "{C4C90723-9758-4A91-8CB6-1283F1209A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRabbitMq.Consumer", "..\src\DemoRabbitMq.Consumer\DemoRabbitMq.Consumer.csproj", "{D7EB61E7-FEC8-4293-A2BB-B548AE20DFF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C90723-9758-4A91-8CB6-1283F1209A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C90723-9758-4A91-8CB6-1283F1209A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C90723-9758-4A91-8CB6-1283F1209A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C90723-9758-4A91-8CB6-1283F1209A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7EB61E7-FEC8-4293-A2BB-B548AE20DFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EB61E7-FEC8-4293-A2BB-B548AE20DFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EB61E7-FEC8-4293-A2BB-B548AE20DFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EB61E7-FEC8-4293-A2BB-B548AE20DFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4C90723-9758-4A91-8CB6-1283F1209A84} = {FB4E4074-AE78-472F-9519-DAEC1BD859F4}
+		{D7EB61E7-FEC8-4293-A2BB-B548AE20DFF6} = {FB4E4074-AE78-472F-9519-DAEC1BD859F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {209E1AE1-4095-40D9-8688-AF4FE2D6757E}
+	EndGlobalSection
+EndGlobal
